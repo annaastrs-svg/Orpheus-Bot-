@@ -1,7 +1,10 @@
 STARPHEUS BOT
 ----
+<img width="960" height="1280" alt="good pic boro" src="https://github.com/user-attachments/assets/df096eca-8141-4159-9b66-d9d053b22526" />
 
-(foto proyecto completo)
+<img width="1200" height="1600" alt="giño" src="https://github.com/user-attachments/assets/5a72c55d-df05-4095-af17-1b9846da4776" />
+<img width="1158" height="1600" alt="starpheis" src="https://github.com/user-attachments/assets/b3b53ede-93f3-4af9-a086-ae473301c037" />
+
 
 Orpheus Bot It's a robot inspired by the Hack Club mascot (Orpheus).
 Starpheus is a Wall-E type robot.
@@ -32,7 +35,8 @@ I'm an amateur, this is my biggest solo project so far, and I like to challenge 
 Honestly, I struggled a lot with this project. I changed everything from one moment to the next thousands of times. It was going to have computer vision and an infrared sensor so you could pet it, it was going to be semi-autonomous, but it was very ambitious. This is the beginning of Starpheus; in the future, I’ll improve it and all these ideas will be more than just ideas. 
 
 
-foto proyecto completo) 
+<img width="1090" height="1600" alt="dormido muerto" src="https://github.com/user-attachments/assets/d3a5095f-d0c6-48e1-84fd-e7f49f192ca2" />
+<img width="1200" height="1600" alt="back" src="https://github.com/user-attachments/assets/89e5fbdf-e6fc-474f-ae75-c98c06259f9e" />
 
 Gallery 
 --
@@ -55,6 +59,15 @@ CAD
 
 
 I made this EXCEL with all the connections :B
+
+
+Videos
+---
+sorry about the quality and my room mess...
+
+https://github.com/user-attachments/assets/39a8d48d-7ff0-484d-94e4-6cae62331124
+
+https://github.com/user-attachments/assets/a8ff2db2-2984-4ae0-9904-147b8f435752
 
 BOM 
 --
@@ -129,6 +142,7 @@ It’s very logical; you need to make sure the circuit closes properly so it wor
 Use 2 capacitors and 3 resistors, 1 capacitor of 470uF for the out+ of the two buck converters (motor and servomotor) so they don't cause power spikes. The resistors are for the ultrasonic sensor. I put a 1k resistor on the wire going from pin 5 of the ESP32S3 to the breadboard; one leg touches that wire directly and the other goes to another wire that goes to the echo of the HCSR04. On that same pin, I directly put two 1k resistors in series to make 2k, and the other leg goes to GND. This is so that the HCSR04 doesn't make too much noise since it's at 5V along with the OLEDs and the ESP32S3.  
 
 Since we have many components drawing a lot of current, we have to consider the motors. In the math part, you need to know a bit about static friction and kinetic friction. Kinetic friction has to be greater than static friction because generally the coefficient of static friction is always higher than the kinetic one, so the motor force has to be greater than the maximum static friction force.
+<img width="1600" height="1280" alt="wires" src="https://github.com/user-attachments/assets/d38bfb31-1968-402d-9814-47ef6465bc53" />
 
 LICENSE
 ---
