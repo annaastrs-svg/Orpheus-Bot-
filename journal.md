@@ -21,10 +21,9 @@ i love to build cute things that have its own "life" starpheus is interactive an
 I dont remember exactly how or why i thought about orpheus.
 The complete plan with starpheus was: computer vision, autonomus, curious and infrared sensors. 
 
-STARPHEUS first sketchs:
----
+STARPHEUS first sketch:
+
 <img width="652" height="876" alt="Captura de pantalla 2026-06-20 233143" src="https://github.com/user-attachments/assets/d101331e-7665-4d96-9c49-d91763c2d7b0" />
-<img width="977" height="612" alt="Captura de pantalla 2026-06-21 210439" src="https://github.com/user-attachments/assets/0872a428-8367-4ea6-9feb-97c167a75056" />
 
 The emotional Face
 ----
@@ -33,8 +32,8 @@ first thing i built was the face, two oleds were the start, one for mouth and ot
 the first state machine for emotions : neutral, sleepy, angry, heart face.
 
 the challenge of this came after, the oleds share the same I2C adress (0x3C) so they fight if you put thwm on the same bus. i had to separate I2C buses. 
-
-<img width="1125" height="816" alt="WhatsApp Image 2026-06-19 at 2 52 02 PM" src="https://github.com/user-attachments/assets/dc50aba2-7fa7-40b4-8e8c-c2011cced254" />
+<img width="1200" height="1600" alt="cara dormido " src="https://github.com/user-attachments/assets/36eb1e90-db93-4aba-ac37-7aeb751bf6e2" />
+<img width="1200" height="1600" alt="asustado medio cuerpo" src="https://github.com/user-attachments/assets/c4f14e75-2484-405f-a6cf-89ce8028bc61" />
 
 The neck servomotor
 ----
@@ -55,7 +54,6 @@ but it nnever worked at any point, because the camera I got was  CLONE, and it d
 I really tryed SO MUCH 😿 
 in the end i made a hard decision. drop the camera and ude a ultrasonic sensor to detect presence instead.
 the computer vision idea STAYS for future improvement.
-<img width="582" height="610" alt="Captura de pantalla 2026-06-19 183814" src="https://github.com/user-attachments/assets/a4e278e0-b121-4a6a-bae8-b2b6fb228f66" />
 <img width="338" height="215" alt="Captura de pantalla 2026-06-19 173344" src="https://github.com/user-attachments/assets/1e82aca4-f83c-4dba-8736-5e0d5c592c14" />
 the camera detected the face position in Y and X nut never send the info to my ESP32S3  
 
@@ -99,7 +97,7 @@ REMEMBER this is a really worked out demo so eventually ill add a 7.4V battery.
 
 Putting it all together
 -----
-I made a really complete excel with all the wires you need to make.
+I made a excel with all the wires you need to make.
 <img width="1482" height="800" alt="Captura de pantalla 2026-06-24 170230" src="https://github.com/user-attachments/assets/d332ddce-01be-4395-a856-c96f633d32db" />
 Honestly i struggled a lot with this, my head still hurts thinking about this...
 
@@ -121,21 +119,36 @@ a proper battery...
 audio and sound expressions 
 a more complete control app
 
-Photos i like about starpheus construction}
+Photos i like about starpheus construction
 ---
+post fin
+<img width="1600" height="1380" alt="idel" src="https://github.com/user-attachments/assets/1609ffe0-4b3f-4daa-afe9-85219999e998" />
+ my sister telled me his name is "star-feo" feo means in spainsh ugly ...
+
+ <img width="1200" height="1600" alt="tired lol" src="https://github.com/user-attachments/assets/9482aace-f11d-4489-b5d0-a87a1325c2b8" />
+
+sleppy 
+
+
 
 <img width="1917" height="1198" alt="Captura de pantalla 2026-06-26 234659" src="https://github.com/user-attachments/assets/852b41ba-32d6-493b-8e03-fbf7201f66c8" />
-Controll pag is complete FIREEE 
+Controll pag !
 <img width="431" height="155" alt="Captura de pantalla 2026-06-26 234435" src="https://github.com/user-attachments/assets/9a4b47d4-57ef-4652-bc38-bb6b8ff9587d" />
-i was so happy, looks amazing that starpheus have internet its so cute 
+
+i was so happy 
+
 <img width="595" height="800" alt="Captura de pantalla 2026-06-25 225412" src="https://github.com/user-attachments/assets/13057666-0fe9-4736-83d3-5e9cc63e0b60" />
-AJJSSJSJS HE LOOKS SO TIRED HELL NAAA
+
+AJJSSJSJS HE LOOKS SO TIRED
+
 <img width="600" height="791" alt="Captura de pantalla 2026-06-25 225356" src="https://github.com/user-attachments/assets/25051666-2c2a-4da9-a11a-2c5d378edc16" />
+
 I tried making a serie of AA batterys but i lit burn my finger, still hurts...a lot 
-<img width="852" height="845" alt="Captura de pantalla 2026-06-22 150748" src="https://github.com/user-attachments/assets/59ba872c-77c0-43dd-b06d-b7fe6b4f6d5a" />
-Bro dont event exist but exist for me :octocat:
+
 
 <img width="532" height="793" alt="Captura de pantalla 2026-06-22 215209" src="https://github.com/user-attachments/assets/66ee15f9-9283-43f9-8e17-41c192e975cb" />
-AWWWA the start of all... 
+
+
+
 
 PS:Thanks u all for looking at these im rlly greatfull <3
