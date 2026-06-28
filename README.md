@@ -8,6 +8,7 @@ STARPHEUS BOT
 https://annaastrs-svg.github.io/STARPHEUS-PAG/
 Take a look to the web page !
 
+also my build (journal.md) :P -> 
 
 Orpheus Bot It's a robot inspired by the Hack Club mascot (Orpheus).
 Starpheus is a Wall-E type robot.
@@ -41,8 +42,6 @@ Honestly, I struggled a lot with this project. I changed everything from one mom
 <img width="1090" height="1600" alt="dormido muerto" src="https://github.com/user-attachments/assets/d3a5095f-d0c6-48e1-84fd-e7f49f192ca2" />
 <img width="1200" height="1600" alt="back" src="https://github.com/user-attachments/assets/89e5fbdf-e6fc-474f-ae75-c98c06259f9e" />
 
-Gallery 
---
 
 PCB
 ---
@@ -77,7 +76,7 @@ BOM
 | Component         | Description                                | Unit | Cost    | Distibutor    | Link                                                                                                                                                                        |
 |-------------------|--------------------------------------------|------|---------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ESP32-S3          | Micro Controler, send code to components   | 1    | $34.91  | AlliExpress        | https://es.aliexpress.com/item/1005009212121307.html?src=bing&exp_tag=pcgcp&albch=shopping&acnt=135095331&albcp=555291703&albag=1299623925852708&slnk=&trgt=pla-2333026235563924&plac=&crea=81226553419370&netw=o&device=c&mtctp=e&utm_source=Bing&utm_medium=shopping&utm_campaign=PA_Bing_MX_Pmax_3C_MAXvalue_20250206_newstore&utm_content=3C&utm_term=ESP32-S3&msclkid=053bb998d0691e21b9cbd3a79d374743&aff_fcid=c5ba799bdfd04e76ae5a24437fb695cd-1782533500453-03069-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=c5ba799bdfd04e76ae5a24437fb695cd-1782533500453-03069-UneMJZVf&terminal_id=5927158648684954809663ec4040b6d2&afSmartRedirect=n&gatewayAdapt=glo2esp  |
-| DRV8833           | H bridge for motors and control PWM        | 1    | $111.00 | AlliExpress   | https://es.aliexpress.com/item/1005006151344347.html?src=bing&exp_tag=pcgcp&albch=shopping&acnt=135095331&albcp=555291703&albag=1299623925852708&slnk=&trgt=pla-2333026235563924&plac=&crea=81226553419370&netw=o&device=c&mtctp=e&utm_source=Bing&utm_medium=shopping&utm_campaign=PA_Bing_MX_Pmax_3C_MAXvalue_20250206_newstore&utm_content=3C&utm_term=drv8833+bateria+pinout&msclkid=bc6fd8323a4012783781b20d77d54aed&aff_fcid=9159e0ecdd304c6abaf17352f823a6c3-1782533528389-07870-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=9159e0ecdd304c6abaf17352f823a6c3-1782533528389-07870-UneMJZVf&terminal_id=5927158648684954809663ec4040b6d2&afSmartRedirect=n&gatewayAdapt=glo2esp |
+| DRV8833           | H bridge for motors and control PWM        | 1    | $2.50 | AlliExpress   | https://es.aliexpress.com/item/1005006151344347.html?src=bing&exp_tag=pcgcp&albch=shopping&acnt=135095331&albcp=555291703&albag=1299623925852708&slnk=&trgt=pla-2333026235563924&plac=&crea=81226553419370&netw=o&device=c&mtctp=e&utm_source=Bing&utm_medium=shopping&utm_campaign=PA_Bing_MX_Pmax_3C_MAXvalue_20250206_newstore&utm_content=3C&utm_term=drv8833+bateria+pinout&msclkid=bc6fd8323a4012783781b20d77d54aed&aff_fcid=9159e0ecdd304c6abaf17352f823a6c3-1782533528389-07870-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=9159e0ecdd304c6abaf17352f823a6c3-1782533528389-07870-UneMJZVf&terminal_id=5927158648684954809663ec4040b6d2&afSmartRedirect=n&gatewayAdapt=glo2esp |
 | OLED.96           | Display, shows data (orpheus eyes)         | 2    | $4.49   | Mercado Libre | https://articulo.mercadolibre.com.mx/MLM-705156753-display-pantalla-oled-128x64-096-para-arduino-_JM?searchVariation=63044404311                                            |
 | OLED.91           | Display, shows data (orpheus mouth)        | 1    | $1.31   |   MercadoLibre   |https://www.mercadolibre.com.mx/pantalla-oled-azul-128x32-i2c-091/p/MLM2068167145?pdp_filters=item_id%3AMLM1478945642&from=gshop&matt_tool=15920969&matt_word=&matt_source=microsoft&matt_campaign_id=571305430&matt_ad_group_id=1177579225794197&matt_match_type=e&matt_network=o&matt_device=c&matt_creative=&matt_keyword=&matt_ad_position=&matt_ad_type=&matt_merchant_id=50038545&matt_product_id=MLM2068167145-product&matt_product_partition_id=4577198197450241&matt_target_id=pla-4577198197450241&msclkid=9ee6e6b3969d135712098c8cd8b2aa43&utm_source=bing&utm_medium=cpc&utm_campaign=MLM_ML_BING_AO_CE-ALL-ALL_X_PLA_ALLB_TXS_ALL&utm_term=4577198197450241&utm_content=CE  |
 | HC-SR04           | Ultra sonic sensor, meausres distance      | 1    | $2.96   | Mercado Libre |https://www.mercadolibre.com.mx/sensor-de-distancia-hc-sr04-ultrasonico/p/MLM2039690988?pdp_filters=item_id%3AMLM571261161&from=gshop&matt_tool=15920969&matt_word=&matt_source=microsoft&matt_campaign_id=571305430&matt_ad_group_id=1177579225794197&matt_match_type=e&matt_network=o&matt_device=c&matt_creative=&matt_keyword=&matt_ad_position=&matt_ad_type=&matt_merchant_id=50038545&matt_product_id=MLM2039690988-product&matt_product_partition_id=4577198197450205&matt_target_id=pla-4577198197450205&msclkid=7707b5d9707f1734f956dfe63e3cd614&utm_source=bing&utm_medium=cpc&utm_campaign=MLM_ML_BING_AO_CE-ALL-ALL_X_PLA_ALLB_TXS_ALL&utm_term=4577198197450205&utm_content=CE              |
@@ -111,7 +110,7 @@ ASSEMBLY
 | ESP32 S3            | 17              | DRV8833      | IN3          | B         |   | Buck 1    | in +            | Protoboard 2    | Positive +  |              |                 |
 | ESP32 S3            | 18              | DRV8833      | IN4          | B         |   | Buck 1    | in-             | Protoboard 1    | Negative -  |              |                 |
 | ESP32 S3            | 5               | HC-SR04      | TRIG         |           |   |           |                 |                 |             |              |                 |
-| ESP32 S3            | 6               | R1 (1ohm)    | ECHO         | R2 (2ohm) |   | BATTERY   | OUT +           | Protoboard 2    | Positive +  |              |                 |
+| ESP32 S3            | 6               | R1 (1kohm)    | ECHO         | R2 (2kohm) |   | BATTERY   | OUT +           | Protoboard 2    | Positive +  |              |                 |
 | MG996R              | GND             | Protoboard 1 | Negative -   |           |   | BATTERY   | OUT -           | Protoboard 1    | Negative -  |              |                 |
 | OLED 0.96  (1 & 2)  | GND             | Protoboard 1 | Negative -   |           |   |           |                 |                 |             |              |                 |
 | OLED 0.96  (1 & 2)  | 5V              | Protoboard 1 | Positive +   |           |   |           |                 |                 |             |              |                 |
